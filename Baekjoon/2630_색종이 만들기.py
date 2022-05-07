@@ -9,6 +9,10 @@ white, blue = 0, 0
 
 
 def check_color(x, y, n):
+    """
+    x,y: 색종이의 좌상단 좌표
+    n: 색종이의 길이
+    """
     global white, blue
     check = data[x][y]
     for i in range(x, x+n):
